@@ -37,7 +37,6 @@ var map = new Map({
 var i = 0;
 
 function panToNextLocation() {
-  console.log('i ' + i);
   view.animate({
     center: coordinates[i],
     duration: 500,
